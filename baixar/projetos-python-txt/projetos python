@@ -264,5 +264,16 @@ if r1<r2+r3 and r2<r1+r3 and r3<r1+r2:
 else:
     print('não podem formar um triângulo')
 
+print('aula12')
+nome = str(input('Nome?'))
+if nome == 'Bia':
+    print('nome lindo')
+elif nome == 'Pedro' or nome == 'Tiago' or nome == 'João':
+    print('nome comum')
+elif nome in 'Ana Maria':
+    print('nome feminino comum')
+else:
+    print('Bem normal esse nome')
+print('Bom dia, {}'.format(nome))
 
 
