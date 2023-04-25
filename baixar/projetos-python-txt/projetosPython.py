@@ -1,38 +1,3 @@
-print('aula1')
-print('Olá.Mundo!')
-
-print('aula2')
-nome=input('Qual o seu nome?')
-print('Olá! ',nome,' prazer em te conhecer!')
-
-print('aula3')
-n1=int(input('Digite um valor: '))
-n2=int(input('Digite outro valor: '))
-s=n1+n2
-print('A soma entre {} e {} é igual a {}!'.format(n1, n2, s))
-
-print('aula4')
-a=input('Digite algo: ')
-print('Tipo primitivo: ', type(a))
-print('Tem apenas espaços: ',a.isspace())
-print('É um número? ',a.isnumeric())
-print('É alfabético? ', a.isalpha())
-print('É alfanumérico? ',a.isalnum())
-print('Está maiúsculo? ',a.isupper())
-print('Está minúsculo? ', a.islower())
-print('É capitalizada? ',a.istitle())
-
-
-print('aula5')
-n=int(input('Digite um número: '))
-a=n-1
-s=n+1
-print('O valor é {}, seu antecessor é {} e o sucessor {}.'.format(n,a,s))
-
-print('aula5pt2')
-n=int(input('Digite um número: '))
-print('O valor é {}, seu antecessor é {} e o sucessor {}. '.format(n,(n-1),(n+1)))
-
 print('aula6')
 n=int(input('Digite um número: '))
 d=n*2
