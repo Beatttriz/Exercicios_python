@@ -1,2 +1,2 @@
-# ExerciciosPython
- Os desafios e exercicios do curso de python - curso em video - prontos e feitos até agora
+# Exercícios python
+ Os desafios e exercícios de python do curso em video prontos e feitos até agora
