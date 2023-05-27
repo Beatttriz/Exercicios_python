@@ -7,7 +7,7 @@ for p in range (1,5):
     print('-----{}° pessoa-----'.format(p))
     nomes=str(input('Nome: ')).strip()
     idade=int(input('Idade: '))
-    sexo=str(input('Sexo [M/F]: ')).strip()
+    sexo=str(input('Sexo [M/F]: ')).strip() 
     soma += idade
     if p==1 and sexo in 'Mm':
         maior=idade
