@@ -8,7 +8,7 @@ while mais!=0:
 	total=total+mais
 	while cont<=total: 
 	    print('{}-'.format(t), end='')
-	    t += r
+	    t+=r
 	    cont += 1
 	print('pausa')
 	mais= int(input('Quantas mais quer saber? '))
