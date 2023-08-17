@@ -11,6 +11,7 @@ for c in range(0,5):
         if valores[c] <min:
             min=valores[c]
 print(f'Valores: {valores} ')
+
 print(f'o maior é {max} posição ',end='')
 for i, v in enumerate(valores):
     if v ==max:
